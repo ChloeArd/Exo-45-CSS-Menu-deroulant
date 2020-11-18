@@ -45,3 +45,10 @@ a {
 .tete:hover .corps {
     display: block;
 }
+
+@media screen and (max-width: 600px) {
+
+    .tete:hover .corps {
+        display: none;
+    }
+}
