@@ -23,17 +23,18 @@ ul {
     text-align: center;
 }
 
-header .tete {
-    color: #666;
+.tete {
     display: inline-block;
     padding: 15px;
 }
+
 a {
     text-decoration: none;
     color: white;
     font-size: 2rem;
 }
-header .corps {
+
+.corps {
     position: absolute;
     text-align: left;
     display: none;
@@ -41,6 +42,6 @@ header .corps {
     background-color: green;
 }
 
-header .tete:hover .corps {
+.tete:hover .corps {
     display: block;
 }
